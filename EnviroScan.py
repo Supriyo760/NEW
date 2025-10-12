@@ -37,13 +37,16 @@ with col1:
     """)
 
 with col2:
-    st.image(
-        "Picsart_25-10-12_12-06-26-286.jpg",  # Update path based on where you saved it
-        use_container_width=True,
-        margin-block-start== 50,
-        width== 454.863,
-        height== 300
-        )
+    st.markdown(
+        """
+        <div style="margin-left: 50px; text-align: left;">
+            <img src="Picsart_25-10-12_12-06-26-286.jpg" 
+                 alt="EnviroScan Live Prediction Visualization" 
+                 style="width: 455px; height: 300px; max-width: 100%; display: block;">
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 st.markdown("---")
 
