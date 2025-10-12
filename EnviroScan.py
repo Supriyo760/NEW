@@ -36,16 +36,21 @@ with col1:
     Our platform provides an intuitive interface to interact with powerful analytics, turning raw data into actionable intelligence. Explore pollution trends, simulate scenarios, and uncover insights that were previously hidden in the noise.
     """)
 
+st.image("Picsart_25-10-12_12-06-26-286.jpg", 
+         width=455, 
+         caption=None)
 st.markdown("""
     <style>
-        .custom-img {
-            width: 100px;
-            height: 100px;
+        .center-img {
+            display: flex;
+            justify-content: center;
             margin-top: 50px;
         }
     </style>
-
-    <img src="Picsart_25-10-12_12-06-26-286.jpg" class="custom-img">
+    <div class="center-img">
+        <img src="Picsart_25-10-12_12-06-26-286.jpg" 
+             width="455" height="300" style="max-width:100%;">
+    </div>
 """, unsafe_allow_html=True)
 
 st.markdown("---")
