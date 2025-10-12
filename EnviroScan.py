@@ -2,6 +2,11 @@ import streamlit as st
 import pandas as pd
 import os
 
+# Add interactive background
+with open("background.html", "r") as f:
+    background_html = f.read()
+st.markdown(background_html, unsafe_allow_html=True)
+
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
     page_title="EnviroScan AI - Home",
