@@ -39,7 +39,12 @@ with col1:
 with col2:
     st.image(
         "Picsart_25-10-12_12-06-26-286.jpg",  # Update path based on where you saved it
-        use_container_width=True
+        use_container_width=True,
+        margin-block-start: 50px,
+        max-width: 100%,
+        width: 454.863px,
+        height: 300px
+    }
     )
 
 st.markdown("---")
