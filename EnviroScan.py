@@ -40,10 +40,10 @@ with col2:
     st.image(
         "Picsart_25-10-12_12-06-26-286.jpg",  # Update path based on where you saved it
         use_container_width=True,
-        margin-block-start: 50px,
+        margin-block-start: 50,
         max-width: 100%,
-        width: 454.863px,
-        height: 300px
+        width: 454.863,
+        height: 300
     }
     )
 
