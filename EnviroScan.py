@@ -41,7 +41,7 @@ with col2:
         "Picsart_25-10-12_12-06-26-286.jpg",
         use_container_width=True,
         width= 455,
-        heigth= 300
+        height= 300
     )
 
 
