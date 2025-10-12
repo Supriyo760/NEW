@@ -17,7 +17,7 @@ st.set_page_config(
 
 # --- HEADER SECTION ---
 with st.container():
-    st.title("Welcome to EnviroScan AI 💨")
+    st.title("EnviroScan AI 💨")
     st.subheader("AI-Powered Pollution Source Identification using Geospatial Analytics")
     st.markdown("---")
 
@@ -26,10 +26,11 @@ col1, col2 = st.columns([2, 1.5])
 
 with col1:
     st.markdown("""
-    ### Revolutionizing Environmental Monitoring
+    ### Environmental Monitoring
     
-    EnviroScan AI leverages a sophisticated machine learning model to analyze complex environmental data. By identifying pollution sources in near real-time, we empower authorities, researchers, and urban planners to make faster, more effective decisions for a cleaner, healthier planet.
-    """)
+    EnviroScan AI leverages a robust, enterprise-grade machine learning framework to efficiently process complex environmental datasets, delivering near-real-time pollution source identification.<br> 
+    Adopt EnviroScan AI to enable IT-driven decision-making for authorities, researchers, and urban planners, optimizing resource allocation and enhancing environmental management with precision and scalability.
+    """, unsafe_allow_html=True)
     st.success("**👈 Select a page from the sidebar to begin your analysis!**", icon="✅")
     st.markdown("""
     Our platform provides an intuitive interface to interact with powerful analytics, turning raw data into actionable intelligence. Explore pollution trends, simulate scenarios, and uncover insights that were previously hidden in the noise.
@@ -67,14 +68,14 @@ st.markdown("---")
 
 # --- HOW IT WORKS ---
 st.header("How EnviroScan AI Works")
-st.markdown("A simplified overview of our end-to-end data pipeline:")
+st.markdown("A streamlined overview of our comprehensive data-to-insight pipeline:")
 
 flow_cols = st.columns(4)
 steps = [
-    ("Data Ingestion", "Real-time sensor and geospatial data is collected from various monitoring stations."),
-    ("AI Modeling", "Data is preprocessed, cleaned, and fed into our trained classification model."),
-    ("Source Prediction", "The model analyzes the inputs and accurately predicts the dominant pollution source."),
-    ("Insight Visualization", "Results are displayed on an interactive dashboard for easy interpretation and analysis.")
+    ("Data Loader", "Gathers real-time and historical environmental data—air quality metrics, weather patterns, and geospatial information—from a network of monitoring stations and external sources, ensuring a robust data foundation."),
+    ("Model Training", "Preprocesses and cleans the collected data, training an advanced machine learning model to accurately classify and predict pollution sources based on complex patterns and features."),
+    ("Deployment", "Deploys the trained model into a scalable, real-time prediction system, enabling seamless integration and instant analysis for actionable environmental insights."),
+    ("Dashboard", "Presents the results through an interactive, user-friendly dashboard, allowing users to visualize trends, simulate scenarios, and derive strategic decisions with ease.")
 ]
 
 for i, col in enumerate(flow_cols):
