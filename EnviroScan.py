@@ -37,11 +37,17 @@ with col1:
     """)
 
 with col2:
-    st.image(
-        "Picsart_25-10-12_12-06-26-286.jpg",
-        use_container_width=True,
-    )
-
+    image_path = "Picsart_25-10-12_12-06-26-286.jpg"
+        st.markdown(
+            f"""
+            <div style="margin-left: 50px; text-align: center;">
+                <img src="{image_path}" 
+                     alt="EnviroScan Live Prediction Visualization" 
+                     style="width: 455px; height: 300px; max-width: 100%; display: block; margin: 0 auto;">
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
 st.markdown("---")
 
