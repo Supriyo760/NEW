@@ -13,6 +13,11 @@ import numpy as np
 from scipy import stats
 import random
 
+# Add interactive background
+with open("background.html", "r") as f:
+    background_html = f.read()
+st.markdown(background_html, unsafe_allow_html=True)
+
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
     page_title="EnviroScan Analytics Dashboard", 
