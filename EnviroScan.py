@@ -38,7 +38,7 @@ with col1:
 
 with col2:
     st.image(
-        "images/Picsart_25-10-12_12-06-26-286.jpg",  # Update path based on where you saved it
+        "Picsart_25-10-12_12-06-26-286.jpg",  # Update path based on where you saved it
         caption="EnviroScan Live Prediction Visualization",
         use_container_width=True
     )
