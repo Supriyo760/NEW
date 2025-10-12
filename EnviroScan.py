@@ -37,16 +37,17 @@ with col1:
     """)
 
 with col2:
-    st.markdown(
-        """
-        <div style="margin-left: 50px; text-align: left;">
-            <img src="Picsart_25-10-12_12-06-26-286.jpg" 
-                 alt="EnviroScan Live Prediction Visualization" 
-                 style="width: 455px; height: 300px; max-width: 100%; display: block;">
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+    with st.container():
+        st.write("")  # Adds a small vertical spacer (optional)
+        st.markdown("<div style='margin-left: 50px;'>", unsafe_allow_html=True)
+        st.image(
+            "Picsart_25-10-12_12-06-26-286.jpg",  # Positional argument (image path)
+            caption="EnviroScan Live Prediction Visualization",  # Optional keyword argument
+            width=455,  # Keyword argument (rounded from 454.863)
+            height=300,  # Keyword argument
+            use_container_width=False  # Keyword argument
+        )
+        st.markdown("</div>", unsafe_allow_html=True)
 
 st.markdown("---")
 
