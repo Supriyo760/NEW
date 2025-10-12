@@ -51,7 +51,7 @@ with col2:
             )
             st.markdown("</div>", unsafe_allow_html=True)
     else:
-        st.error(f"Image not found at: {image_path}. Please check the file path."
+        st.error(f"Image not found at: {image_path}. Please check the file path.")  # Added closing parenthesis
 
 st.markdown("---")
 
