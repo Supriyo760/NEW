@@ -41,7 +41,6 @@ with col2:
         "Picsart_25-10-12_12-06-26-286.jpg",  # Update path based on where you saved it
         use_container_width=True,
         margin-block-start== 50,
-        max-width== 100%,
         width== 454.863,
         height== 300
     )
