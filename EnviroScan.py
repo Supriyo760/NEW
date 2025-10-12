@@ -44,7 +44,6 @@ with col2:
         max-width: 100%,
         width: 454.863,
         height: 300
-    }
     )
 
 st.markdown("---")
