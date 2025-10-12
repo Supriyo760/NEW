@@ -39,10 +39,9 @@ with col1:
 st.markdown("""
     <style>
         .custom-img {
-            width: 455px;
-            height: 300px;
+            width: 100px;
+            height: 100px;
             margin-top: 50px;
-            max-width: 100%;
         }
     </style>
 
