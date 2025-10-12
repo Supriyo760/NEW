@@ -43,7 +43,7 @@ with col2:
         <div style="margin-left: 50px; text-align: center;">
             <img src="{image_path}" 
                  alt="EnviroScan Live Prediction Visualization" 
-                 style="width: 455px; height: 300px; max-width: 100%; display: block; margin: 0 auto;">
+                 style="width: 455px; height: 300px; max-width: 100%">
         </div>
         """,
         unsafe_allow_html=True
