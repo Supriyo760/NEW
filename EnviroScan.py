@@ -43,7 +43,7 @@ with col2:
         margin-block-start== 50,
         width== 454.863,
         height== 300
-    )
+        )
 
 st.markdown("---")
 
