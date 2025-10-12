@@ -37,21 +37,11 @@ with col1:
     """)
 
 with col2:
-    # Verify image path
-    image_path = "Picsart_25-10-12_12-06-26-286.jpg"
-    if os.path.exists(image_path):
-        with st.container():
-            st.markdown("<div style='margin-left: 50px;'>", unsafe_allow_html=True)
-            st.image(
-                image_path,  # Positional argument (image path)
-                caption="EnviroScan Live Prediction Visualization",  # Optional keyword argument
-                width=455,  # Keyword argument (rounded from 454.863)
-                height=300,  # Keyword argument
-                use_container_width=False  # Keyword argument
-            )
-            st.markdown("</div>", unsafe_allow_html=True)
-    else:
-        st.error(f"Image not found at: {image_path}. Please check the file path.")  # Added closing parenthesis
+    st.image(
+        "Picsart_25-10-12_12-06-26-286.jpg",
+        use_container_width=True
+    )
+
 
 st.markdown("---")
 
