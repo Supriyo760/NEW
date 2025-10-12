@@ -1,0 +1,21 @@
+# Python virtual environment
+venv/
+__pycache__/
+
+# Environment variables (contains secret API keys)
+.env
+
+# Log files and temporary files
+*.log
+*.html
+
+
+#log files
+enviroscan.log
+outputs\confusion_matrix.png
+outputs\feature_importance.png
+outputs\model_evaluation_report.txt
+cache/
+
+# Streamlit secrets file
+.streamlit/
