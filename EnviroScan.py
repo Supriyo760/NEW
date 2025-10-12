@@ -38,7 +38,7 @@ with col1:
 
 with col2:
     st.image(
-        "https://image.pollinations.ai/prompt/An%20urban%20landscape%20with%20transparent%20data%20overlays%20and%20environmental%20monitoring%20elements%2C%20symbolizing%20AI-powered%20pollution%20source%20identification.%20Clean%2C%20modern%2C%20digital%20art%20style%20with%20a%20focus%20on%20data%20visualization%20and%20sustainability%20themes.",
+        "Picsart_25-10-12_12-06-26-286.jpg",
         caption="AI-Powered Environmental Monitoring",
         use_container_width=True
     )
