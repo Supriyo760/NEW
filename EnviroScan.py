@@ -40,7 +40,6 @@ with col2:
     st.image(
             "Picsart_25-10-12_12-06-26-286.jpg",
             use_container_width=True,
-            height= 300
     )
 
 st.markdown("---")
